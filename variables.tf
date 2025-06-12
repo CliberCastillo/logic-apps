@@ -12,3 +12,9 @@ variable "logic_app_name" {
   description = "The name of the managed disk."
   type        = string
 }
+
+variable "subscription_id" {
+  description = "The Azure subscription ID where the resources will be created."
+  type        = string
+  
+}
